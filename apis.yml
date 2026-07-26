@@ -1,7 +1,29 @@
 aid: deporpriv
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deporpriv.png
 name: DeporPrivé
-description: DeporPrivé is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DeporPrivé is a Mexico-based sports e-commerce platform operating as a
+  members-oriented "Sport Experience & Outlet" that runs flash sales and
+  private, time-limited shopping events across more than 300 athletic brands
+  including Adidas, Nike, and Salomon, with discounts reaching up to 70%.
+  Founded in 2016 and headquartered in Mexico, the company curates footwear,
+  apparel, and accessories for running, cycling, swimming, football, and
+  general fitness, and has grown into one of the largest sport-specific online
+  retailers in the country, fulfilling around 1,000 packages per day across
+  multiple sales channels. It is tracked in the API Evangelist network as a
+  portfolio company of 500 Global. No public developer program, API, or
+  documentation surface has been identified for this consumer retail brand.
 url: https://raw.githubusercontent.com/api-evangelist/deporpriv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Sports
+- Mexico
+- Flash Sales
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://deporprive.mx
+  url: https://www.deporprive.mx/
+- type: TermsOfService
+  url: https://www.deporprive.mx/content/2-terminos-y-condiciones
+- type: PrivacyPolicy
+  url: https://www.deporprive.mx/content/5-aviso-de-privacidad
+- type: Support
+  url: https://www.deporprive.mx/contactanos
+- type: HelpCenter
+  url: https://www.deporprive.mx/content/12-preguntas-frecuentes
+- type: DomainSecurity
+  url: security/deporpriv-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
